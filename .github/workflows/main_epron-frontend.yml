@@ -26,7 +26,10 @@ jobs:
       - name: npm install, build, and test
         run: |
           npm install
+          npm install eslint@latest
+          npm install svgo@latest
           npm update
+          npm audit fix
           npm audit fix --force
           npm run build --force
           
