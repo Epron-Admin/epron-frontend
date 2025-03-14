@@ -27,7 +27,8 @@ jobs:
         run: |
           npm install
           npm update
-          npm run build --if-present
+          npm audit fix --force
+          npm run build --force
           
 
       - name: Zip artifact for deployment
