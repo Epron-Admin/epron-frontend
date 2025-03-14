@@ -1,0 +1,4 @@
+.top-pos {
+    top: 50%;
+    transform: translateX(-50%);
+}
