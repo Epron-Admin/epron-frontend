@@ -31,7 +31,7 @@
     "use-react-router-breadcrumbs": "^4.0.1",
     "web-vitals": "^2.1.4",
     "xlsx": "^0.18.5",
-    "serve": "^14.2.0"
+    "serve": "^14.2.0",
     "yup": "^0.32.11"
   },
   "scripts": {
