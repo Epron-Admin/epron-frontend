@@ -65,7 +65,7 @@ export const generatePaymentObj = (record, user) => {
     currency: "NGN",
     merchantRef: `EPR${generateRandomCharacters(2)}${record.equipment_pin}`,
     narration: "string",
-    callBackUrl: "https://epronregister.com.ng/verify-payment",
+    callBackUrl: "https://blackbox.epron.org.ng/verify-payment",
     // callBackUrl: "http://localhost:3000/verify-payment",
     splitCode: "",
     shouldTokenizeCard: false,
