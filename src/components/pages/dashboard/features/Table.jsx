@@ -93,8 +93,8 @@ function Table({
                         "Cooling & Freezing equipment" ? (
                         "Freezing Equipment"
                       ) : column.subIndex &&
-                        record[column.index][column.subIndex] ? (
-                        record[column.index][column.subIndex]
+                        record?.[column?.index]?.[column?.subIndex] ? (
+                        record?.[column?.index]?.[column?.subIndex]
                       ) : column.index === "total" ||
                         column.index === "price" ? (
                         formatNumber(Math.ceil(record[column.index]))
